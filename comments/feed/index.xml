@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Kommentare für Playerdash.app	</title>
-	<atom:link href="http://https://blissful-brattain-85d323.netlify.app/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://https://blissful-brattain-85d323.netlify.app/</link>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Share knowledge – not files</description>
 	<lastBuildDate>Mon, 10 May 2021 15:54:27 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Kommentar zu Hello world! von A WordPress Commenter		</title>
-		<link>http://https://blissful-brattain-85d323.netlify.app/uncategorized/hello-world/#comment-1</link>
+		<link>/uncategorized/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
 		<pubDate>Mon, 10 May 2021 13:54:21 +0000</pubDate>
-		<guid isPermaLink="false">http://https://blissful-brattain-85d323.netlify.app/?p=1#comment-1</guid>
+		<guid isPermaLink="false">/?p=1#comment-1</guid>
 
 					<description><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.

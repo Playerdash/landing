@@ -11382,12 +11382,12 @@ html, body {
 @font-face {
   font-family: "HKGroteskPro";
   font-weight: 400;
-  src: url("http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff2") format("woff2"), url("http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff") format("woff"); }
+  src: url("/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff2") format("woff2"), url("/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: "HKGroteskPro";
   font-weight: 600;
-  src: url("http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff2") format("woff2"), url("http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff") format("woff"); }
+  src: url("/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff2") format("woff2"), url("/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Medium.woff") format("woff"); }
 
 h1, h2,
 .h1, .h2 {
@@ -12551,7 +12551,7 @@ code {
     position: absolute;
     width: 0;
     height: 0;
-    background-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-status.svg), url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group.svg), url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group-hover.svg), url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group-hover-last.svg); }
+    background-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-status.svg), url(/wp-content/themes/landkit/assets/img/masks/avatar-group.svg), url(/wp-content/themes/landkit/assets/img/masks/avatar-group-hover.svg), url(/wp-content/themes/landkit/assets/img/masks/avatar-group-hover-last.svg); }
 
 .avatar-img {
   width: 100%;
@@ -12580,8 +12580,8 @@ code {
 
 .avatar-online .avatar-img,
 .avatar-offline .avatar-img {
-  -webkit-mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-status.svg);
-          mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-status.svg);
+  -webkit-mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-status.svg);
+          mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-status.svg);
   -webkit-mask-size: 100% 100%;
           mask-size: 100% 100%; }
 
@@ -12659,8 +12659,8 @@ code {
   .avatar-group .avatar-xxl + .avatar-xxl {
     margin-left: -1.25rem; }
   .avatar-group .avatar:not(:last-child) {
-    -webkit-mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group.svg);
-            mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group.svg);
+    -webkit-mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-group.svg);
+            mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-group.svg);
     -webkit-mask-size: 100% 100%;
             mask-size: 100% 100%; }
   .avatar-group .avatar:hover {
@@ -12668,13 +12668,13 @@ code {
             mask-image: none;
     z-index: 1; }
     .avatar-group .avatar:hover + .avatar {
-      -webkit-mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group-hover.svg);
-              mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group-hover.svg);
+      -webkit-mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-group-hover.svg);
+              mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-group-hover.svg);
       -webkit-mask-size: 100% 100%;
               mask-size: 100% 100%; }
       .avatar-group .avatar:hover + .avatar:last-child {
-        -webkit-mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group-hover-last.svg);
-                mask-image: url(http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/img/masks/avatar-group-hover-last.svg); }
+        -webkit-mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-group-hover-last.svg);
+                mask-image: url(/wp-content/themes/landkit/assets/img/masks/avatar-group-hover-last.svg); }
 
 .choices::after {
   display: none; }
@@ -13554,7 +13554,7 @@ embed, iframe, object {
 @font-face {
   font-family: "HKGroteskPro";
   font-weight: 900;
-  src: url("http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff2") format("woff2"), url("http://https://blissful-brattain-85d323.netlify.app/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff") format("woff"); }
+  src: url("/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff2") format("woff2"), url("/wp-content/themes/landkit/assets/fonts/HK%20Grotesk%20Pro/HKGroteskPro-Bold.woff") format("woff"); }
 
 .font-weight-900 {
   font-weight: 900; }
