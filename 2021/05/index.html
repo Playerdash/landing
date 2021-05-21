@@ -30,6 +30,7 @@ img.emoji {
 	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-library-theme-css" href="/wp-includes/css/dist/block-library/theme.min.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="landkit-gutenberg-blocks-css" href="/wp-content/themes/landkit/assets/css/gutenberg-blocks.css?ver=1.0.6" type="text/css" media="all">
+<link rel="stylesheet" id="weglot-css-css" href="/wp-content/plugins/weglot/dist/css/front-css.css?ver=3.3.5" type="text/css" media="">
 <link rel="stylesheet" id="feather-css" href="/wp-content/themes/landkit/assets/fonts/Feather/feather.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="/wp-content/themes/landkit/assets/libs/fontawesome/css/all.min.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="icomoon-css" href="/wp-content/themes/landkit/assets/fonts/icomoon/icomoon.css?ver=1.0.6" type="text/css" media="all">
@@ -42,30 +43,42 @@ img.emoji {
 <link rel="stylesheet" id="jarallax-css" href="/wp-content/themes/landkit/assets/libs/jarallax/dist/jarallax.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="mapbox-gl-css-css" href="/wp-content/themes/landkit/assets/libs/mapbox-gl/dist/mapbox-gl.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="landkit-style-css" href="/wp-content/themes/landkit/style.css?ver=1.0.6" type="text/css" media="all">
+<style id="landkit-style-inline-css" type="text/css">.btn-primary {
+                background-color: #0971b7;
+                color: #fff;
+            }
+
+            .btn-primary:hover,
+            .btn-primary:focus {
+                 background-color: #0067ad;
+                 color: #fff;
+            }</style>
+<script type="text/javascript" src="/wp-content/plugins/weglot/dist/front-js.js?ver=3.3.5" id="wp-weglot-js-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<script type="text/javascript" id="wp-jamstack-deployments-adminbar-js-extra">
-/* <![CDATA[ */
-var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b25d858b6"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/wp-jamstack-deployments/assets/admin.js?ver=1620992428" id="wp-jamstack-deployments-adminbar-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.7.2">
+
+<link rel="alternate" href="/2021/05/" hreflang="en">
+<link rel="alternate" href="/de/2021/05/" hreflang="de">
+<link rel="icon" href="/wp-content/uploads/2021/05/cropped-icon512_t-1-32x32.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2021/05/cropped-icon512_t-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2021/05/cropped-icon512_t-1-180x180.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2021/05/cropped-icon512_t-1-270x270.png">
 </head>
 
-<body class="archive date wp-embed-responsive text-break bg-light elementor-default elementor-kit-10">
+<body class="archive date wp-custom-logo wp-embed-responsive text-break bg-light elementor-default elementor-kit-10">
 
 
 
 <div id="page" class="hfeed site">
     
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
             <div class="container-fluid">
-                <a href="/" rel="home" class="navbar-brand font-weight-900 line-height-1 h3 m-0">Playerdash.app</a><!-- Toggler -->
+                <a href="/" class="navbar-brand" rel="home"><img width="1101" height="357" src="/wp-content/uploads/2021/05/cropped-Logo_Titel_Text_transparent-1.png" class="navbar-brand-img" alt="Playerdash.app"></a><!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button><!-- Collapse -->
@@ -73,7 +86,12 @@ var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b
 <!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fe fe-x"></i>
-        </button>
+        </button><ul id="menu-landing-page-en" class="navbar-nav ml-auto">
+<li id="menu-item-251" class="menu-item-251 nav-item"><a title="Design Dashboard" href="#Design" class=" nav-link">Design Dashboard</a></li>
+<li id="menu-item-252" class="menu-item-252 nav-item"><a title="Pricing" href="#Pricing" class=" nav-link">Pricing</a></li>
+<li id="menu-item-250" class="menu-item-250 nav-item"><a title="FAQ" href="/faq/" class=" nav-link">FAQ</a></li>
+</ul>            <a class="header-button navbar-btn btn lift ml-auto btn-primary btn-sm" href="#" target="_blank">
+                Log In            </a>
 </div>            </div>
         </nav><!-- WELCOME
         ================================================== -->
@@ -126,11 +144,11 @@ var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b
                 <div class="row mb-n6">
 <article id="post-1" class="col-12 col-lg-4 d-flex post-1 post type-post status-publish format-standard hentry category-uncategorized">
     <div class="card mb-6 shadow-light-lg lift lift-lg">
-        <a class="card-body my-auto" href="/uncategorized/hello-world/">
+        <a class="card-body my-auto" href="/hello-world/">
             <h3 class="post__title overflow-hidden d-box box-orient-vertical">Hello world!</h3>            <div class="post__excerpt text-muted overflow-hidden">
                 <p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
             </div>
-        </a><a class="card-meta mt-auto" href="/uncategorized/hello-world/">
+        </a><a class="card-meta mt-auto" href="/hello-world/">
             <hr class="card-meta-divider">
             <div class="avatar avatar-sm mr-2">
                 <img alt="" src="http://2.gravatar.com/avatar/8b8939b7f1b6b9985f8979fde909bf27?s=24&#038;d=mm&#038;r=g" class="avatar avatar-24 photo avatar-img rounded-circle" height="24" width="24" loading="lazy">            </div>
@@ -208,5 +226,5 @@ var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b
 <script type="text/javascript" src="/wp-content/themes/landkit/assets/js/landkit.js?ver=1.0.6" id="landkit-scripts-js"></script>
 <script type="text/javascript" src="/wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
 
-</body>
+<!--Weglot 3.3.5--><aside data-wg-notranslate class="country-selector weglot-dropdown weglot-default"><input id="wg162160802160a7c655021ad98" class="weglot_choice" type="checkbox" name="menu"><label for="wg162160802160a7c655021ad98" class="wgcurrent wg-li weglot-lang weglot-language weglot-flags flag-0 en" data-code-language="en" data-name-language="English"><span class="wglanguage-name">English</span></label><ul><li class="wg-li weglot-lang weglot-language weglot-flags flag-0 de" data-code-language="de"><a data-wg-notranslate href="/de/2021/05/">Deutsch</a></li></ul></aside> </body>
 </html>

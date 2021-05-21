@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="/xmlrpc.php">
 
-<title>Hello world! &#8211; Playerdash.app</title>
+<title>Hallo Welt! - Playerdash.app</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//s.w.org">
 <link rel="alternate" type="application/rss+xml" title="Playerdash.app &raquo; Feed" href="/feed/">
 <link rel="alternate" type="application/rss+xml" title="Playerdash.app &raquo; Kommentar-Feed" href="/comments/feed/">
-<link rel="alternate" type="application/rss+xml" title="Playerdash.app &raquo; Hello world! Kommentar-Feed" href="/uncategorized/hello-world/feed/">
+<link rel="alternate" type="application/rss+xml" title="Playerdash.app &raquo; Hello world! Kommentar-Feed" href="/hello-world/feed/">
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
 			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
@@ -31,6 +31,7 @@ img.emoji {
 	<link rel="stylesheet" id="wp-block-library-css" href="/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="wp-block-library-theme-css" href="/wp-includes/css/dist/block-library/theme.min.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="landkit-gutenberg-blocks-css" href="/wp-content/themes/landkit/assets/css/gutenberg-blocks.css?ver=1.0.6" type="text/css" media="all">
+<link rel="stylesheet" id="weglot-css-css" href="/wp-content/plugins/weglot/dist/css/front-css.css?ver=3.3.5" type="text/css" media="">
 <link rel="stylesheet" id="feather-css" href="/wp-content/themes/landkit/assets/fonts/Feather/feather.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="fontawesome-css" href="/wp-content/themes/landkit/assets/libs/fontawesome/css/all.min.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="icomoon-css" href="/wp-content/themes/landkit/assets/fonts/icomoon/icomoon.css?ver=1.0.6" type="text/css" media="all">
@@ -43,43 +44,60 @@ img.emoji {
 <link rel="stylesheet" id="jarallax-css" href="/wp-content/themes/landkit/assets/libs/jarallax/dist/jarallax.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="mapbox-gl-css-css" href="/wp-content/themes/landkit/assets/libs/mapbox-gl/dist/mapbox-gl.css?ver=1.0.6" type="text/css" media="all">
 <link rel="stylesheet" id="landkit-style-css" href="/wp-content/themes/landkit/style.css?ver=1.0.6" type="text/css" media="all">
+<style id="landkit-style-inline-css" type="text/css">.btn-primary {
+                background-color: #0971b7;
+                color: #fff;
+            }
+
+            .btn-primary:hover,
+            .btn-primary:focus {
+                 background-color: #0067ad;
+                 color: #fff;
+            }</style>
+<script type="text/javascript" src="/wp-content/plugins/weglot/dist/front-js.js?ver=3.3.5" id="wp-weglot-js-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery.min.js?ver=3.5.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
-<script type="text/javascript" id="wp-jamstack-deployments-adminbar-js-extra">
-/* <![CDATA[ */
-var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b25d858b6"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="/wp-content/plugins/wp-jamstack-deployments/assets/admin.js?ver=1620992428" id="wp-jamstack-deployments-adminbar-js"></script>
 <link rel="https://api.w.org/" href="/wp-json/">
 <link rel="alternate" type="application/json" href="/wp-json/wp/v2/posts/1">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml"> 
 <meta name="generator" content="WordPress 5.7.2">
-<link rel="canonical" href="/uncategorized/hello-world/">
+<link rel="canonical" href="/de/hello-world/">
 <link rel="shortlink" href="/?p=1">
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Funcategorized%2Fhello-world%2F">
-<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Funcategorized%2Fhello-world%2F&#038;format=xml">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fhello-world%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fhello-world%2F&#038;format=xml">
+
+<meta name="google" content="notranslate">
+<link rel="alternate" href="/hello-world/" hreflang="en">
+<link rel="alternate" href="/de/hello-world/" hreflang="de">
+<link rel="icon" href="/wp-content/uploads/2021/05/cropped-icon512_t-1-32x32.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2021/05/cropped-icon512_t-1-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2021/05/cropped-icon512_t-1-180x180.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2021/05/cropped-icon512_t-1-270x270.png">
 </head>
 
-<body class="post-template-default single single-post postid-1 single-format-standard wp-embed-responsive text-break elementor-default elementor-kit-10">
+<body class="post-template-default single single-post postid-1 single-format-standard wp-custom-logo wp-embed-responsive text-break elementor-default elementor-kit-10">
 
 
 
 <div id="page" class="hfeed site">
     
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
             <div class="container-fluid">
-                <a href="/" rel="home" class="navbar-brand font-weight-900 line-height-1 h3 m-0">Playerdash.app</a><!-- Toggler -->
+                <a href="/de/" class="navbar-brand" rel="home"><img width="1101" height="357" src="/wp-content/uploads/2021/05/cropped-Logo_Titel_Text_transparent-1.png" class="navbar-brand-img" alt="Playerdash.app"></a><!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button><!-- Collapse -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
-<!-- Toggler -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fe fe-x"></i>
-        </button>
+        </button><ul id="menu-landing-page-en" class="navbar-nav ml-auto">
+<li id="menu-item-251" class="menu-item-251 nav-item"><a title="Design-Dashboard" href="#Design" class="nav-link">Design-Dashboard</a></li>
+<li id="menu-item-252" class="menu-item-252 nav-item"><a title="Preisgestaltung" href="#Pricing" class="nav-link">Preisgestaltung</a></li>
+<li id="menu-item-250" class="menu-item-250 nav-item"><a title="FAQ" href="/de/faq/" class="nav-link">FAQ</a></li>
+</ul>            <a class="header-button navbar-btn btn lift ml-auto btn-primary btn-sm" href="#" target="_blank">
+                Einloggen            </a>
 </div>            </div>
         </nav>
 <article id="post-1" class="post-1 post type-post status-publish format-standard hentry category-uncategorized">
@@ -89,7 +107,7 @@ var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-9 col-xl-8">
 
-                                                <h1 class="display-4 text-center text-break mb-7">Hello world!</h1>
+                                                <h1 class="display-4 text-center text-break mb-7">Hallo Welt!</h1>
                         
                         
                         <div class="row align-items-center py-5 border-top border-bottom">
@@ -97,47 +115,47 @@ var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b
 
                 <!-- Avatar -->
                 <div class="avatar avatar-lg">
-                    <img alt="" src="http://2.gravatar.com/avatar/8b8939b7f1b6b9985f8979fde909bf27?s=36&#038;d=mm&#038;r=g" srcset="http://2.gravatar.com/avatar/8b8939b7f1b6b9985f8979fde909bf27?s=72&#038;d=mm&#038;r=g 2x" class="avatar avatar-36 photo avatar-img rounded-circle" height="36" width="36" loading="lazy">                </div>
+                    <img alt="" src="http://2.gravatar.com/avatar/8b8939b7f1b6b9985f8979fde909bf27?s=36&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/8b8939b7f1b6b9985f8979fde909bf27?s=72&#038;d=mm&#038;r=g 2x" class="avatar avatar-36 photo avatar-img rounded-circle" height="36" width="36" loading="lazy">                </div>
 
             </div>
 
             <div class="col ml-n5">
 
-                <!-- Name -->
+                
                 <h6 class="text-uppercase mb-0">admin</h6>
 
                 
                 <!-- Date -->
                 <div class="font-size-sm text-muted">
-                    Posted on <time class="post__date published updated" datetime="2021-05-10T15:54:27+00:00">Mai 10, 2021</time>                </div>
+                    Geschrieben am <time class="post__date published updated" datetime="2021-05-10T15:54:27+00:00">Mai 10, 2021</time>                </div>
 
             </div>
 
             <div class="col-auto">
-<span class="h6 text-uppercase text-muted d-none d-md-inline mr-4">Share:</span>
+<span class="h6 text-uppercase text-muted d-none d-md-inline mr-4">Teilen:</span>
         <ul class="d-inline list-unstyled list-inline list-social">
 
                     <li class="list-inline-item list-social-item mr-3">
-                <a href="https://api.whatsapp.com/send?text=Hello+world%21%20%3A%20Welcome+to+WordPress.+This+is+your+first+post.+Edit+or+delete+it%2C+then+start+writing%21%20%2Funcategorized%2Fhello-world%2F" class="text-decoration-none text-muted font-size-xl" target="_blank" rel="noopener noreferrer">
+                <a href="https://api.whatsapp.com/send?text=Hello+world%21%20%3A%20Welcome+to+WordPress.+This+is+your+first+post.+Edit+or+delete+it%2C+then+start+writing%21%20%2Fhello-world%2F" class="text-decoration-none text-muted font-size-xl" target="_blank" rel="noopener noreferrer">
                                         <i class="list-social-icon fab fa-whatsapp"></i>
                     
-                                        <span class="sr-only">Share this on WhatsApp</span>
+                                        <span class="sr-only">Dies auf WhatsApp teilen</span>
                                     </a>
             </li>
 
                     <li class="list-inline-item list-social-item mr-3">
-                <a href="http://www.facebook.com/sharer.php?u=%2Funcategorized%2Fhello-world%2F" class="text-decoration-none text-muted font-size-xl" target="_blank" rel="noopener noreferrer">
+                <a href="http://www.facebook.com/sharer.php?u=%2Fhello-world%2F" class="text-decoration-none text-muted font-size-xl" target="_blank" rel="noopener noreferrer">
                                         <i class="list-social-icon fab fa-facebook-square"></i>
                     
-                                        <span class="sr-only">Share this on FaceBook</span>
+                                        <span class="sr-only">Dies auf FaceBook teilen</span>
                                     </a>
             </li>
 
                     <li class="list-inline-item list-social-item mr-3">
-                <a href="https://twitter.com/intent/tweet?url=%2Funcategorized%2Fhello-world%2F&#038;text=Hello+world%21%20%3A%20Welcome+to+WordPress.+This+is+your+first+post.+Edit+or+delete+it%2C+then+start+writing%21&#038;via=&#038;hashtags=" class="text-decoration-none text-muted font-size-xl" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/intent/tweet?url=%2Fhello-world%2F&amp;text=Hello+world%21%20%3A%20Welcome+to+WordPress.+This+is+your+first+post.+Edit+or+delete+it%2C+then+start+writing%21&amp;via=&amp;hashtags=" class="text-decoration-none text-muted font-size-xl" target="_blank" rel="noopener noreferrer">
                                         <i class="list-social-icon fab fa-twitter"></i>
                     
-                                        <span class="sr-only">Share this on Twitter</span>
+                                        <span class="sr-only">Dies auf Twitter teilen</span>
                                     </a>
             </li>
 
@@ -156,7 +174,7 @@ var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b
                                                 
                         <div class="post__content single_post__content mb-7 clearfix">
                             
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+<p>Willkommen bei WordPress. Dies ist Ihr erster Beitrag. Bearbeiten oder löschen Sie ihn, dann beginnen Sie zu schreiben!</p>
                         </div>
                         
                         <div class="row align-items-center py-5 border-top border-bottom">
@@ -167,30 +185,30 @@ var wpjd = {"ajaxurl":"\/wp-admin\/admin-ajax.php","deployment_button_nonce":"9b
 		
 		<div class="mb-6">
 			<h3 class="font-weight-bold">
-		        1 Comment			</h3>
+		        1 Kommentar			</h3>
 		</div>
 
 		<div class="list-unstyled comment-list">
-	        		<div id="comment-1" class="comment even thread-even depth-1 ">
+	        		<div id="comment-1" class="comment even thread-even depth-1">
 			<div class="comment-inner p-6 border bg-light mb-6">
 				<div class="media align-items-center mb-2">
-												<div class="avatar avatar-50 mr-4"><img alt="" src="http://1.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=50&#038;d=mm&#038;r=g" class="avatar avatar-50 photo avatar-img rounded-circle" height="50" width="50" loading="lazy"></div>					<div class="media-body">
+												<div class="avatar avatar-50 mr-4"><img alt="" src="http://1.gravatar.com/avatar/d7a973c7dab26985da5f961be7b74480?s=50&amp;d=mm&amp;r=g" class="avatar avatar-50 photo avatar-img rounded-circle" height="50" width="50" loading="lazy"></div>					<div class="media-body">
 						<div class="d-flex justify-content-between align-items-center">
 							<span class="h5 font-weight-bold mb-0 d-flex align-items-center">
-								A WordPress Commenter															</span>
-							<a href="/uncategorized/hello-world/#comment-1" class="small text-muted comment-posted-on text-nowrap ml-4">
-								Mai 10, 2021							</a>
+								Ein WordPress-Kommentator</span>
+							<a href="/de/hello-world/#comment-1" class="small text-muted comment-posted-on text-nowrap ml-4">
+								10. Mai 2021</a>
 						</div>
 					</div>
 				</div>
 
 				<div class="comment-text text-gray-700">
-					<p>Hi, this is a comment.<br>
-To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.<br>
-Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
+					<p>Hallo, dies ist ein Kommentar.<br>
+Um mit dem Moderieren, Bearbeiten und Löschen von Kommentaren zu beginnen, besuchen Sie bitte den Bildschirm Kommentare im Dashboard.<br>
+Die Avatare der Kommentatoren kommen von <a href="https://gravatar.com/">Gravatar</a>.</p>
 				</div>
 					
-				<a rel="nofollow" class="comment-reply-link mr-4" href="/uncategorized/hello-world/?replytocom=1#respond" data-commentid="1" data-postid="1" data-belowelement="comment-reply-target-1" data-respondelement="respond" data-replyto="Antworte auf A WordPress Commenter" aria-label="Antworte auf A WordPress Commenter">Reply</a>			</div>
+				<a rel="nofollow" class="comment-reply-link mr-4" href="/de/hello-world/?replytocom=1#respond" data-commentid="1" data-postid="1" data-belowelement="comment-reply-target-1" data-respondelement="respond" data-replyto="Antworte auf A WordPress Commenter" aria-label="Antworte auf A WordPress Commenter">Antwort</a>			</div>
 			<div id="comment-reply-target-1" class="comment-reply-target"></div>
 		</div>	    </div>
 <!-- .comment-list -->	
@@ -198,25 +216,25 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 		
 		
 		<div id="respond" class="comment-respond bg-light border p-6">
-		<h3 id="reply-title" class="comment-reply-title mb-4 font-weight-bold">Schreibe einen Kommentar <small><a rel="nofollow" id="cancel-comment-reply-link" href="/uncategorized/hello-world/#respond" style="display:none;">Antworten abbrechen</a></small>
+		<h3 id="reply-title" class="comment-reply-title mb-4 font-weight-bold">Schreiben Sie einen Kommentar <small><a rel="nofollow" id="cancel-comment-reply-link" href="/de/hello-world/#respond" style="display:none;">Antworten abbrechen</a></small>
 </h3>
 <form action="/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
-<p class="font-size-sm text-muted">Your email address will not be published. Required fields are marked <span class="text-danger">*</span></p>
+<p class="font-size-sm text-muted">Ihre E-Mail Adresse wird nicht veröffentlicht. Erforderliche Felder sind mit <span class="text-danger">*</span>markiert</p>
 <div class="form-group comment-form-comment mb-5">
-				<label class="input-label" for="comment">Comment</label>
+				<label class="input-label" for="comment">Kommentar</label>
 				<textarea id="comment" name="comment" class="form-control" rows="8" maxlength="65525" required></textarea>
 			</div>
 <div class="form-group comment-form-author mb-5">
-                <label class="input-label" for="author">Your name<span class="text-danger">*</span></label>
+                <label class="input-label" for="author">Ihr Name*</label>
                 <input type="text" name="author" id="author" class="form-control" value="" maxlength="245" required>
             </div>
 <div class="form-group comment-form-email mb-5">
-                <label class="input-label" for="email">Your email<span class="text-danger">*</span></label>
+                <label class="input-label" for="email">Ihre E-Mail*</label>
                 <input type="email" name="email" id="email" class="form-control" value="" maxlength="100" required>
             </div>
 <div class="custom-control custom-checkbox mb-5 comment-form-cookies-consent">
                     <input type="checkbox" id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" class="custom-control-input" value="yes">
-                    <label class="custom-control-label input-label" for="wp-comment-cookies-consent">Save my name and email in this browser for the next time I comment.</label>
+                    <label class="custom-control-label input-label" for="wp-comment-cookies-consent">Speichern Sie meinen Namen und meine E-Mail in diesem Browser für das nächste Mal, wenn ich kommentiere.</label>
                 </div>
 <div class="form-group form-submit d-flex justify-content-center mb-0">
 <button type="submit" name="submit" id="submit" class="btn btn-primary btn-wide transition-3d-hover">Kommentar abschicken</button><input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID">
@@ -236,9 +254,9 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
                                 <div class="footer-widgets row mb-n6 mb-md-n8">
                                     <div class="footer-widget footer-widget--1 col-md-4 col-12 col-lg-3">
                         <div id="archives-2" class="widget text-muted widget__footer mb-6 mb-md-8 widget_archive">
-<h6 class="widget__title font-weight-bold text-uppercase text-gray-700">Archive</h6>
+<h6 class="widget__title font-weight-bold text-uppercase text-gray-700">Archiv</h6>
 			<ul>
-					<li><a href="/2021/05/">Mai 2021</a></li>
+					<li><a href="/de/2021/05/">Mai 2021</a></li>
 			</ul>
 
 			</div>
@@ -246,7 +264,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 <h6 class="widget__title font-weight-bold text-uppercase text-gray-700">Kategorien</h6>
 			<ul>
 					<li class="cat-item cat-item-1">
-<a href="/category/uncategorized/">Uncategorized</a>
+<a href="/de/category/uncategorized/">Uncategorized</a>
 </li>
 			</ul>
 
@@ -255,8 +273,8 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 <h6 class="widget__title font-weight-bold text-uppercase text-gray-700">Meta</h6>
 		<ul>
 						<li><a href="/wp-login.php">Anmelden</a></li>
-			<li><a href="/feed/">Feed der Einträge</a></li>
-			<li><a href="/comments/feed/">Kommentare-Feed</a></li>
+			<li><a href="/de/feed/">Zuführung der Einträge</a></li>
+			<li><a href="/de/comments/feed/">Kommentar-Feed</a></li>
 
 			<li><a href="https://de.wordpress.org/">WordPress.org</a></li>
 		</ul>
@@ -295,5 +313,5 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.</p>
 <script type="text/javascript" src="/wp-includes/js/comment-reply.min.js?ver=5.7.2" id="comment-reply-js"></script>
 <script type="text/javascript" src="/wp-includes/js/wp-embed.min.js?ver=5.7.2" id="wp-embed-js"></script>
 
-</body>
+<!--Weglot 3.3.5--><aside data-wg-notranslate class="country-selector weglot-dropdown weglot-default"><input id="wg162160806460a7c6806397736" class="weglot_choice" type="checkbox" name="menu"><label for="wg162160806460a7c6806397736" class="wgcurrent wg-li weglot-lang weglot-language weglot-flags flag-0 de" data-code-language="de" data-name-language="Deutsch"><span class="wglanguage-name">Deutsch</span></label><ul><li class="wg-li weglot-lang weglot-language weglot-flags flag-0 en" data-code-language="en"><a data-wg-notranslate href="/hello-world/">English</a></li></ul></aside> </body>
 </html>
