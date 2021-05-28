@@ -7,7 +7,7 @@
 	>
 <channel>
 	<title>
-	Kommentare zu: Hello world!	</title>
+	Comments on: Hello world!	</title>
 	<atom:link href="/hello-world/feed/" rel="self" type="application/rss+xml" />
 	<link>/hello-world/</link>
 	<description>Share knowledge – not files</description>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=5.7.2</generator>
 	<item>
 		<title>
-		Von: A WordPress Commenter		</title>
+		By: A WordPress Commenter		</title>
 		<link>/hello-world/#comment-1</link>
 
 		<dc:creator><![CDATA[A WordPress Commenter]]></dc:creator>
