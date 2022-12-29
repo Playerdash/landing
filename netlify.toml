@@ -11,3 +11,9 @@
 	status = 302
 	force = true
 	conditions = {Language = ["en"]}
+
+[[redirects]]
+	from = "/fieldhockey"
+	to = "/"
+	status = 302
+	force = true
