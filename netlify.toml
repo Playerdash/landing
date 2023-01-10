@@ -23,3 +23,15 @@
 	to = "/"
 	status = 302
 	force = true
+
+[[redirects]]
+	from = "/clubs"
+	to = "/"
+	status = 302
+	force = true
+
+[[redirects]]
+	from = "/colleges"
+	to = "/"
+	status = 302
+	force = true
