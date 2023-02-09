@@ -13,6 +13,20 @@
 	conditions = {Language = ["en"]}
 
 [[redirects]]
+	from = "/de/academy-de"
+	to = "/academy"
+	status = 302
+	force = true
+	conditions = {Language = ["en"]}
+
+[[redirects]]
+	from = "/academy"
+	to = "/de/academy-de"
+	status = 302
+	force = true
+	conditions = {Language = ["de"]}
+
+[[redirects]]
 	from = "/fieldhockey"
 	to = "/"
 	status = 302
@@ -35,3 +49,4 @@
 	to = "/"
 	status = 302
 	force = true
+
