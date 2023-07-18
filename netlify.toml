@@ -27,6 +27,13 @@
 	conditions = {Language = ["de"]}
 
 [[redirects]]
+	from = "/purchase-confirmation"
+	to = "/bestellbestaetigung"
+	status = 302
+	force = true
+	conditions = {Language = ["de"]}
+
+[[redirects]]
 	from = "/fieldhockey"
 	to = "/"
 	status = 302
