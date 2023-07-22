@@ -46,6 +46,12 @@
 	force = true
 
 [[redirects]]
+	from = "/itk"
+	to = "/de/itk"
+	status = 302
+	force = true
+
+[[redirects]]
 	from = "/clubs"
 	to = "/"
 	status = 302
