@@ -12,13 +12,13 @@
 	<atom:link href="/de/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Share knowledge – not files</description>
-	<lastBuildDate>Thu, 27 Jul 2023 11:48:21 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 31 Jul 2023 08:07:45 +0000</lastBuildDate>
 	<language>de-DE</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.7</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
 	<url>/wp-content/uploads/2021/06/Favicon48.png</url>
