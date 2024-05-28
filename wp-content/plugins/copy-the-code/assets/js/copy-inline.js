@@ -22,7 +22,7 @@
             event.preventDefault();
 
             const self = $( this )
-            let text = self.find( '.ctc-inline-copy-text' ).text() || ''
+            let text = self.find( '.ctc-inline-copy-textarea' ).val() || ''
 
             // Remove first and last new line.
             text = $.trim(text);

@@ -33,7 +33,7 @@ window.CTC = (function (window, document, navigator) {
         document.body.removeChild(textArea);
 
         // Redirect to page.
-        if( copyTheCode.redirect_url ) {
+        if( copyTheCode && copyTheCode.redirect_url ) {
             window.location.href = copyTheCode.redirect_url;
         }
     }
@@ -42,9 +42,20 @@ window.CTC = (function (window, document, navigator) {
         createTextArea(text);
         selectText();
         copyToClipboard();
-    };
+    }
+
+    copySelection = function ( source ) {
+        const selection = window.getSelection()
+        const range = document.createRange()
+        range.selectNodeContents( source[0] )
+        selection.removeAllRanges()
+        selection.addRange(range)
+        document.execCommand('copy')
+        selection.removeAllRanges()
+    }
 
     return {
-        copy: copy
+        copy: copy,
+        copySelection: copySelection,
     };
 })(window, document, navigator);

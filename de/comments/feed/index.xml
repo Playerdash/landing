@@ -11,11 +11,11 @@
 	<atom:link href="/de/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Share knowledge – not files</description>
-	<lastBuildDate>Mon, 04 Dec 2023 17:16:22 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 28 May 2024 23:38:36 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 </channel>
 </rss>
