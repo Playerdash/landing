@@ -7,15 +7,15 @@
 	>
 <channel>
 	<title>
-	Kommentare für Playerdash.app	</title>
+	Kommentare für Playerdash	</title>
 	<atom:link href="/de/comments/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Share knowledge – not files</description>
-	<lastBuildDate>Tue, 28 May 2024 23:38:36 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Jul 2024 23:17:20 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
 </channel>
 </rss>
