@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:KNHB League Exchange Webinar I
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 14.5//EN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:MESZ
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:MEZ
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20240830T120000
+TZID:Europe/Berlin
+UID:20240818T220647Z-96038947862@fe80:0:0:0:e866:7bff:fe95:d47feth0
+DTSTART;TZID=Europe/Berlin:20240830T110000
+LAST-MODIFIED:20240818T220647Z
+DTSTAMP:20240818T220656Z
+LOCATION:https://zoom.us/j/96038947862?pwd=fDg3YNHgH3H7TnaxJ3CoHkwRQMJss
+ s.1
+SUMMARY:KNHB League Exchange Webinar I
+SEQUENCE:0
+DESCRIPTION:Lukas lädt Sie zu einem geplanten Zoom-Meeting ein.\n\nBeitr
+ eten Zoom Meeting\nhttps://zoom.us/j/96038947862?pwd=fDg3YNHgH3H7TnaxJ3C
+ oHkwRQMJsss.1\n\nMeeting-ID: 960 3894 7862\nKenncode: 871066\n\n---\n\nS
+ chnelleinwahl mobil\n+16694449171\,\,96038947862#\,\,\,\,*871066# Verein
+ igte Staaten\n+16699009128\,\,96038947862#\,\,\,\,*871066# Vereinigte St
+ aaten (San Jose)\n\n---\n\nEinwahl nach aktuellem Standort\n• +1 669 444
+  9171 Vereinigte Staaten\n• +1 669 900 9128 Vereinigte Staaten (San Jose
+ )\n• +1 689 278 1000 Vereinigte Staaten\n• +1 719 359 4580 Vereinigte St
+ aaten\n• +1 253 205 0468 Vereinigte Staaten\n• +1 253 215 8782 Vereinigt
+ e Staaten (Tacoma)\n• +1 301 715 8592 Vereinigte Staaten (Washington DC)
+ \n• +1 305 224 1968 Vereinigte Staaten\n• +1 309 205 3325 Vereinigte Sta
+ aten\n• +1 312 626 6799 Vereinigte Staaten (Chicago)\n• +1 346 248 7799 
+ Vereinigte Staaten (Houston)\n• +1 360 209 5623 Vereinigte Staaten\n• +1
+  386 347 5053 Vereinigte Staaten\n• +1 507 473 4847 Vereinigte Staaten\n
+ • +1 564 217 2000 Vereinigte Staaten\n• +1 646 558 8656 Vereinigte Staat
+ en (New York)\n• +1 646 931 3860 Vereinigte Staaten\n\nMeeting-ID: 960 3
+ 894 7862\nKenncode: 871066\n\nOrtseinwahl suchen: https://zoom.us/u/af6F
+ 5yvOx\n\n
+BEGIN:VALARM
+UID:F67E8B48-D3EE-40A5-B5D8-8C445DB523C7
+X-WR-ALARMUID:F67E8B48-D3EE-40A5-B5D8-8C445DB523C7
+TRIGGER:-PT10M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR

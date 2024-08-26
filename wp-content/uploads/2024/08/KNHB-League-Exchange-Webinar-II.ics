@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:KNHB League Exchange Webinar II
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//macOS 14.5//EN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+TZNAME:MESZ
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+DTSTART:19961027T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+TZNAME:MEZ
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20240906T110000
+TZID:Europe/Berlin
+UID:20240821T141115Z-92885270488@fe80:0:0:0:b003:38ff:fe8b:dfefeth0
+DTSTART;TZID=Europe/Berlin:20240906T100000
+LAST-MODIFIED:20240821T141115Z
+DTSTAMP:20240821T141134Z
+LOCATION:https://zoom.us/j/92885270488?pwd=1Ub6bJt7mTpqGzNjbVxDzb8ifX5ai
+ 5.1
+SUMMARY:KNHB League Exchange Webinar II
+SEQUENCE:0
+DESCRIPTION:Aditya Pasarakonda lädt Sie zu einem geplanten Zoom-Meeting 
+ ein.\n\nBeitreten Zoom Meeting\nhttps://zoom.us/j/92885270488?pwd=1Ub6bJ
+ t7mTpqGzNjbVxDzb8ifX5ai5.1\n\nMeeting-ID: 928 8527 0488\nKenncode: 55392
+ 7\n\n---\n\nSchnelleinwahl mobil\n+15074734847\,\,92885270488#\,\,\,\,*5
+ 53927# Vereinigte Staaten\n+15642172000\,\,92885270488#\,\,\,\,*553927# 
+ Vereinigte Staaten\n\n---\n\nEinwahl nach aktuellem Standort\n• +1 507 4
+ 73 4847 Vereinigte Staaten\n• +1 564 217 2000 Vereinigte Staaten\n• +1 6
+ 46 558 8656 Vereinigte Staaten (New York)\n• +1 646 931 3860 Vereinigte 
+ Staaten\n• +1 669 444 9171 Vereinigte Staaten\n• +1 669 900 9128 Vereini
+ gte Staaten (San Jose)\n• +1 689 278 1000 Vereinigte Staaten\n• +1 719 3
+ 59 4580 Vereinigte Staaten\n• +1 253 205 0468 Vereinigte Staaten\n• +1 2
+ 53 215 8782 Vereinigte Staaten (Tacoma)\n• +1 301 715 8592 Vereinigte St
+ aaten (Washington DC)\n• +1 305 224 1968 Vereinigte Staaten\n• +1 309 20
+ 5 3325 Vereinigte Staaten\n• +1 312 626 6799 Vereinigte Staaten (Chicago
+ )\n• +1 346 248 7799 Vereinigte Staaten (Houston)\n• +1 360 209 5623 Ver
+ einigte Staaten\n• +1 386 347 5053 Vereinigte Staaten\n\nMeeting-ID: 928
+  8527 0488\nKenncode: 553927\n\nOrtseinwahl suchen: https://zoom.us/u/aF
+ TwUYrDo\n\n
+BEGIN:VALARM
+UID:9378D112-75E6-408A-8B81-8A61D7C962CA
+X-WR-ALARMUID:9378D112-75E6-408A-8B81-8A61D7C962CA
+TRIGGER:-PT10M
+DESCRIPTION:Reminder
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
