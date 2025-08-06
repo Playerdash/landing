@@ -1,18 +1,4 @@
 [[redirects]]
-	from = "/"
-	to = "/de"
-	status = 302
-	force = true
-	conditions = {Language = ["de"]}
-
-[[redirects]]
-	from = "/de"
-	to = "/"
-	status = 302
-	force = true
-	conditions = {Language = ["en"]}
-
-[[redirects]]
 	from = "/de/academy-de"
 	to = "/academy"
 	status = 302

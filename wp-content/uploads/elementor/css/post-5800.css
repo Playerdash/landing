@@ -113,6 +113,8 @@
     .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu li a {
         background: none !important;
         color: #fff !important;
+        max-width: 170px;
+        margin-inline: auto;
     }
     .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu li:nth-last-of-type(1),
     .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu li:nth-last-of-type(2),
@@ -153,11 +155,13 @@
         background: #fff !important;
         color: #192950 !important;
         margin-right: auto;
+        margin-left: 2.5px;
     }
     .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu li:nth-last-of-type(5) a {
         background: #A6E4FF !important;
         color: #192950 !important;
         margin-left: auto;
+        margin-right: 2.5px;
     }
     .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu li:nth-last-of-type(4) {
         margin-bottom: 60px;
@@ -180,8 +184,14 @@
         z-index: 1;
     }
     
+    .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu li a.eael-item-active {
+        background-color: #fff !important;
+        color: #050A21 !important;
+    }
     
-    
+    .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu-toggle-text {
+        display: none !important;
+    }
     
     .elementor-5800 .elementor-element.elementor-element-6430d884 .eael-simple-menu-toggle svg {
       transition: all 0.3s ease;
